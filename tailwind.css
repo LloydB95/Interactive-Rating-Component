@@ -1,4 +1,6 @@
-/* font import\s */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* font import's */
 
 /* tailwind components */
 
@@ -421,7 +423,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -468,7 +470,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -515,12 +517,28 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+.h-screen{
+  height: 100vh;
 }
 
-.bg-green-500 {
+.w-screen{
+  width: 100vw;
+}
+
+.bg-green-500{
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-vdark-blue\/50{
+  background-color: hsl(216 12% 8% / 0.5);
+}
+
+.bg-vdark-blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(216 12% 8% / var(--tw-bg-opacity));
+}
+
+.font-overpass{
+  font-family: Overpass, sans-serif;
 }
