@@ -13,13 +13,13 @@
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
-<body class="flex items-center justify-center w-screen h-screen text-white font-overpass bg-vdark-blue">
+<body class="flex items-center justify-center w-screen h-screen px-5 font-overpass bg-vdark-blue">
 
     <!-- Rating state start -->
-    <div class="hidden max-w-sm p-8 shadow-lg rounded-3xl bg-gradient-to-br from-dark-blue to-dark-blue/40">
+    <div class="hidden max-w-sm p-8 text-white shadow-lg rounded-3xl bg-gradient-to-br from-dark-blue to-dark-blue/40">
 
         <div class="p-3 rounded-full max-w-fit bg-medium-grey/25">
-            <img src="./images/icon-star.svg" alt="">
+            <img src="./images/icon-star.svg">
         </div>
 
         <h1 class="py-4 text-2xl font-bold"> How did we do? </h1>
@@ -69,16 +69,21 @@
     <!-- Thank you state start -->
     <div class="max-w-sm p-8 shadow-lg rounded-3xl bg-gradient-to-br from-dark-blue to-dark-blue/40">
 
-        <div class="flex justify-center p-6">
+        <div class="flex justify-center py-4 pb-8">
             <img src="./images/illustration-thank-you.svg">
         </div>
+        <div class="flex justify-center">
+            <h1 class="px-4 py-1 text-sm text-center rounded-full text-orange bg-medium-grey/10">
+                You selected ~ out of 5
+            </h1>
+        </div>
 
-        <div class="flex text-center text-orange">You selected <!-- Add rating here --> out of 5</div>
+        <h2 class="pt-8 pb-4 text-2xl font-bold text-center text-white"> Thank you! </h2>
 
-        <div class="text-3xl">Thank you!</div>
-
-        We appreciate you taking the time to give a rating. If you ever need more support,
-        don't hesitate to get in touch!
+        <p class="pb-5 text-sm text-center text-white/50">
+            We appreciate you taking the time to give a rating. If you ever need more
+            support, don't hesitate to get in touch!
+        </p>
     </div>
     <!-- Thank you state end -->
 
