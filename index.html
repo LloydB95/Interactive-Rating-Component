@@ -16,49 +16,65 @@
 <body class="flex items-center justify-center w-screen h-screen px-5 font-overpass bg-vdark-blue">
 
     <!-- Rating state start -->
-    <div class="hidden max-w-sm p-8 text-white shadow-lg rounded-3xl bg-gradient-to-br from-dark-blue to-dark-blue/40">
+    <div class="relative hidden max-w-sm px-6 py-8 overflow-hidden text-white shadow-lg rounded-3xl bg-dark-blue/40">
 
-        <div class="p-3 rounded-full max-w-fit bg-medium-grey/25">
+        <div
+            class="absolute left-0 w-full h-full rounded-full bg-gradient-radial from-medium-grey/10 to-transparent -top-48 blur-xl">
+        </div>
+
+        <div class="p-3 rounded-full max-w-fit bg-medium-grey/10">
             <img src="./images/icon-star.svg">
         </div>
 
         <h1 class="py-4 text-2xl font-bold"> How did we do? </h1>
 
-        <p class="pb-5 text-sm text-light-grey">
+        <p class="pb-6 text-sm text-light-grey">
             Please let us know how we did with your support request. All feedback is appreciated
             to help us improve our offering!
         </p>
 
-        <div class="grid grid-cols-5 gap-6 pb-8 text-center text-white/50">
-            <button
-                class="flex items-center justify-center rounded-full aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white">
-                1
-            </button>
+        <div class="grid grid-cols-5 gap-5 pb-8 text-sm text-center md:gap-4 text-white/50 md:text-md">
 
-            <button
-                class="flex items-center justify-center rounded-full aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white">
-                2
-            </button>
+            <div class="flex items-center justify-center">
+                <button
+                    class="duration-75 rounded-full w-11 h-11 md:w-12 md:h-12 aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white transition-color">
+                    1
+                </button>
+            </div>
 
-            <button
-                class="flex items-center justify-center rounded-full aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white">
-                3
-            </button>
+            <div class="flex items-center justify-center">
+                <button
+                    class="duration-75 rounded-full w-11 h-11 md:w-12 md:h-12 aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white transition-color">
+                    2
+                </button>
+            </div>
 
-            <button
-                class="flex items-center justify-center rounded-full aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white">
-                4
-            </button>
+            <div class="flex items-center justify-center">
+                <button
+                    class="duration-75 rounded-full w-11 h-11 md:w-12 md:h-12 aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white transition-color">
+                    3
+                </button>
+            </div>
 
-            <button
-                class="flex items-center justify-center rounded-full aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white">
-                5
-            </button>
+            <div class="flex items-center justify-center">
+                <button
+                    class="duration-75 rounded-full w-11 h-11 md:w-12 md:h-12 aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white transition-color">
+                    4
+                </button>
+            </div>
+
+            <div class="flex items-center justify-center">
+                <button
+                    class="duration-75 rounded-full w-11 h-11 md:w-12 md:h-12 aspect-square bg-medium-grey/25 hover:bg-orange hover:text-white transition-color">
+                    5
+                </button>
+            </div>
         </div>
 
 
         <div class="flex items-center justify-center">
-            <button class="w-full p-3 text-sm text-center rounded-3xl bg-orange hover:bg-white hover:text-orange">
+            <button
+                class="w-full p-3 text-sm text-center duration-75 rounded-3xl bg-orange hover:bg-white hover:text-orange transition-color">
                 S U B M I T</button>
         </div>
     </div>
@@ -67,7 +83,11 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div class="max-w-sm p-8 shadow-lg rounded-3xl bg-gradient-to-br from-dark-blue to-dark-blue/40">
+    <div class="relative max-w-sm px-8 py-4 overflow-hidden shadow-lg rounded-3xl bg-dark-blue/40">
+
+        <div
+            class="absolute left-0 w-full h-full rounded-full bg-gradient-radial from-medium-grey/10 to-transparent -top-48 blur-xl">
+        </div>
 
         <div class="flex justify-center py-4 pb-8">
             <img src="./images/illustration-thank-you.svg">
