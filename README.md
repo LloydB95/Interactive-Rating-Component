@@ -28,11 +28,13 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshots
-The Screenshot below shows the initial state and the active state of clicking the numbers
-![](./screenshot1.jpg)
+
+The screenshot below shows the initial state and the active state of clicking the numbers.
+![](./images/screenshot1.jpg)
 
 This screenshot shows the completed state after selecting a number and clicking "**Submit**". The number that is clicked is then shown on the **"Thank You"** state.
-![](./screenshot2.jpg)
+
+![](./images/screenshot2.jpg)
 
 ### Links
 
